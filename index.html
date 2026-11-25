@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Writing Skills: Unit 1</title>
+    <!-- Load Tailwind CSS for responsive styling and modern design tokens -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        /* Custom strikethrough transition for checklists */
+        .checklist-input:checked + span {
+            text-decoration: line-through;
+            color: #94a3b8;
+        }
+        /* Smooth fade-in for feedback boxes */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.25s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-100 selection:text-blue-900 py-6 px-4 sm:px-6 lg:px-8">
+
+    <div class="max-w-4xl mx-auto space-y-6">
+        
+        <!-- HEADER SECTION -->
+        <header class="bg-[#2563eb] text-white p-6 sm:p-8 rounded-2xl shadow-md">
+            <div class="flex items-center gap-3 mb-2">
+                <span class="bg-blue-500/40 text-blue-50 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full border border-blue-400/30">
+                    Unit 1 • Interactive Workbook
+                </span>
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">Academic Writing Skills: Unit 1</h1>
+            <p class="text-blue-100 mt-1 text-sm sm:text-base">Interactive Practice: Topic Sentences &amp; Compare/Contrast Essay</p>
+        </header>
+
+        <!-- SECTION 1: THEORY & EXERCISE 1 -->
+        <section class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <h2 class="text-xl sm:text-2xl font-bold text-[#2563eb] pb-3 border-b border-slate-200 mb-4">
+                Theory: Topic Sentences
+            </h2>
+            <p class="text-slate-700 leading-relaxed mb-4">
+                A <strong class="font-semibold text-slate-900">topic sentence</strong> is usually the first sentence in a paragraph. It introduces the main idea of the paragraph (the central point) and is supported by the other sentences.
+            </p>
+            
+            <!-- Theory Box -->
+            <div class="bg-blue-50/80 border-l-4 border-[#2563eb] p-4 sm:p-5 rounded-r-xl mb-6">
+                <p class="font-semibold text-slate-900 mb-2">Look at three topic sentences about red and grey squirrels in Britain:</p>
+                <ul class="space-y-2 text-slate-700 text-sm sm:text-base">
+                    <li class="flex items-start gap-2">
+                        <span class="font-bold text-[#2563eb] min-w-[1.25rem]">a</span>
+                        <span><em>At first sight, the two species of squirrel are similar.</em> <span class="text-slate-500 text-xs sm:text-sm">(General statement)</span></span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="font-bold text-[#2563eb] min-w-[1.25rem]">b</span>
+                        <span><em>Three more differences explain why red squirrels have lost out in the competition with grey squirrels.</em> <span class="text-slate-500 text-xs sm:text-sm">(General statement)</span></span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="font-bold text-[#2563eb] min-w-[1.25rem]">c</span>
+                        <span><em>In contrast, the two types of squirrel are different in body size and weight.</em> <span class="text-slate-500 text-xs sm:text-sm">(General statement + topics of supporting sentences)</span></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Exercise 1 -->
+            <h3 class="text-lg font-bold text-slate-800 mb-4">Exercise 1: Analyzing Topic Sentences</h3>
+            
+            <div class="space-y-5">
+                <!-- Question 1 -->
+                <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200/80">
+                    <p class="font-semibold text-slate-800 mb-3">
+                        1. Which sentences above introduce paragraphs about <span class="underline decoration-[#2563eb] decoration-2">differences</span>? <span class="text-sm font-normal text-slate-500">(Select all that apply)</span>
+                    </p>
+                    <div class="space-y-2.5">
+                        <label class="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="checkbox" name="ex1_q1" value="a" class="w-4 h-4 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Sentence a</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="checkbox" name="ex1_q1" value="b" class="w-4 h-4 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Sentence b</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="checkbox" name="ex1_q1" value="c" class="w-4 h-4 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Sentence c</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200/80">
+                    <p class="font-semibold text-slate-800 mb-3">
+                        2. Which sentence above introduces a paragraph about <span class="underline decoration-[#2563eb] decoration-2">similarities</span>?
+                    </p>
+                    <div class="space-y-2.5">
+                        <label class="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="radio" name="ex1_q2" value="a" class="w-4 h-4 text-[#2563eb] focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Sentence a</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="radio" name="ex1_q2" value="b" class="w-4 h-4 text-[#2563eb] focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Sentence b</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="radio" name="ex1_q2" value="c" class="w-4 h-4 text-[#2563eb] focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Sentence c</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200/80">
+                    <p class="font-semibold text-slate-800 mb-3">
+                        3. What does paragraph length tell you about the 'correct' number of supporting sentences in a paragraph?
+                    </p>
+                    <div class="space-y-2.5">
+                        <label class="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="radio" name="ex1_q3" value="1" class="w-4 h-4 mt-1 text-[#2563eb] focus:ring-[#2563eb]">
+                            <span class="text-slate-700">Every academic paragraph must have exactly 5 sentences.</span>
+                        </label>
+                        <label class="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="radio" name="ex1_q3" value="2" class="w-4 h-4 mt-1 text-[#2563eb] focus:ring-[#2563eb]">
+                            <span class="text-slate-700">There is no fixed 'correct' number; it depends on how many details are needed to support the topic sentence.</span>
+                        </label>
+                        <label class="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                            <input type="radio" name="ex1_q3" value="3" class="w-4 h-4 mt-1 text-[#2563eb] focus:ring-[#2563eb]">
+                            <span class="text-slate-700">All paragraphs in an essay must be the exact same length.</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <button onclick="checkExercise1()" class="bg-[#2563eb] hover:bg-blue-700 active:bg-blue-800 text-white font-semibold px-6 py-2.5 rounded-xl shadow-sm transition cursor-pointer">
+                    Check Exercise 1
+                </button>
+                <div id="feedback-ex1" class="hidden mt-4 p-4 rounded-xl text-sm leading-relaxed"></div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: EXERCISE 2 -->
+        <section class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <h2 class="text-xl sm:text-2xl font-bold text-[#2563eb] pb-3 border-b border-slate-200 mb-4">
+                Exercise 2: Choosing Topic Sentences
+            </h2>
+            <p class="text-slate-700 mb-6">
+                In the following two texts, the topic sentences are missing. Read each text and select <strong class="font-semibold text-slate-900">TWO</strong> possible topic sentences for each text.
+            </p>
+
+            <!-- Text 1: Bears -->
+            <div class="mb-8">
+                <h3 class="text-lg font-bold text-slate-800 mb-3">Text 1: Bears</h3>
+                <div class="bg-amber-50/70 border border-amber-200/80 p-4 sm:p-5 rounded-xl text-slate-700 italic leading-relaxed mb-4 text-sm sm:text-base">
+                    <span class="not-italic font-semibold text-amber-800 bg-amber-200/60 px-2 py-0.5 rounded mr-1">[Missing Topic Sentence]</span>
+                    Both bear species are native to North America and are common in both the United States and Canada. Neither the black bear nor the grizzly bear is an endangered species. Despite their names, the species are also similar in colour. 'Black' bears can be black, brown, red and even white. In the same way, grizzlies can range in colour from black to blonde. Finally, the two bear species are similar in behaviour. They are intelligent, curious and gentle unless humans enter their area or try to hurt their babies. Then both bears can become dangerous.
+                </div>
+
+                <div class="space-y-2.5" id="ex2_t1">
+                    <label class="flex items-start gap-3 p-3 bg-slate-50 border border-slate-200 rounded-xl cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                        <input type="checkbox" name="ex2_t1" value="a" class="w-4 h-4 mt-1 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                        <span class="text-slate-700"><strong class="text-slate-900">a.</strong> Bears are one of the biggest attractions in the national parks of North America.</span>
+                    </label>
+                    <label class="flex items-start gap-3 p-3 bg-slate-50 border border-slate-200 rounded-xl cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                        <input type="checkbox" name="ex2_t1" value="b" class="w-4 h-4 mt-1 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                        <span class="text-slate-700"><strong class="text-slate-900">b.</strong> The American black bear and the grizzly, or brown, bear are similar in many ways.</span>
+                    </label>
+                    <label class="flex items-start gap-3 p-3 bg-slate-50 border border-slate-200 rounded-xl cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                        <input type="checkbox" name="ex2_t1" value="c" class="w-4 h-4 mt-1 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                        <span class="text-slate-700"><strong class="text-slate-900">c.</strong> The American black bear and the grizzly, or brown, bear are similar in habitat, colour and behaviour.</span>
+                    </label>
+                </div>
+                <div id="feedback-ex2-t1" class="hidden mt-3 p-4 rounded-xl text-sm leading-relaxed"></div>
+            </div>
+
+            <!-- Text 2: Elephants -->
+            <div class="mb-6">
+                <h3 class="text-lg font-bold text-slate-800 mb-3">Text 2: Elephants</h3>
+                <div class="bg-amber-50/70 border border-amber-200/80 p-4 sm:p-5 rounded-xl text-slate-700 italic leading-relaxed mb-4 text-sm sm:text-base">
+                    <span class="not-italic font-semibold text-amber-800 bg-amber-200/60 px-2 py-0.5 rounded mr-1">[Missing Topic Sentence]</span>
+                    African elephants are much larger than Asian elephants and have much larger ears to protect them from the hot African sun. African elephants also have more wrinkled skin than their Asian cousins. Although the two species have tusks - large, curved teeth - only male Asian elephants have them, whereas both male and female African elephants do. However, despite these differences, the African and Asian species are similar in several important ways. First, both species are very social. They live in groups which are usually led by the oldest female. Second, elephants are naturally gentle animals. Neither African nor Asian elephants are dangerous to humans in normal circumstances.
+                </div>
+
+                <div class="space-y-2.5" id="ex2_t2">
+                    <label class="flex items-start gap-3 p-3 bg-slate-50 border border-slate-200 rounded-xl cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                        <input type="checkbox" name="ex2_t2" value="a" class="w-4 h-4 mt-1 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                        <span class="text-slate-700"><strong class="text-slate-900">a.</strong> African and Asian elephants are different in appearance, but they are similar socially.</span>
+                    </label>
+                    <label class="flex items-start gap-3 p-3 bg-slate-50 border border-slate-200 rounded-xl cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                        <input type="checkbox" name="ex2_t2" value="b" class="w-4 h-4 mt-1 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                        <span class="text-slate-700"><strong class="text-slate-900">b.</strong> African and Asian elephants have both differences and similarities.</span>
+                    </label>
+                    <label class="flex items-start gap-3 p-3 bg-slate-50 border border-slate-200 rounded-xl cursor-pointer hover:border-[#2563eb] hover:bg-blue-50/30 transition">
+                        <input type="checkbox" name="ex2_t2" value="c" class="w-4 h-4 mt-1 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                        <span class="text-slate-700"><strong class="text-slate-900">c.</strong> African and Asian elephants are very similar in appearance.</span>
+                    </label>
+                </div>
+                <div id="feedback-ex2-t2" class="hidden mt-3 p-4 rounded-xl text-sm leading-relaxed"></div>
+            </div>
+
+            <button onclick="checkExercise2()" class="bg-[#2563eb] hover:bg-blue-700 active:bg-blue-800 text-white font-semibold px-6 py-2.5 rounded-xl shadow-sm transition cursor-pointer">
+                Check Exercise 2
+            </button>
+        </section>
+
+        <!-- SECTION 3: WRITING TASK -->
+        <section class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <h2 class="text-xl sm:text-2xl font-bold text-[#2563eb] pb-3 border-b border-slate-200 mb-4">
+                Writing Task: Compare and Contrast
+            </h2>
+            <p class="text-slate-700 mb-6">
+                Complete the essay comparing and contrasting <strong class="font-semibold text-slate-900">the whale shark and the tiger shark</strong> by writing two body paragraphs about their differences.
+            </p>
+
+            <!-- Pre-writing Check -->
+            <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200/80 mb-6">
+                <p class="font-semibold text-slate-800 mb-3">
+                    Pre-writing Check: Look at the last sentence of the introduction below. What are the <strong class="text-[#2563eb]">four differences</strong> mentioned that you need to write about?
+                </p>
+                <div class="space-y-2.5 mb-4">
+                    <label class="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] transition">
+                        <input type="radio" name="pre_write" value="1" class="w-4 h-4 mt-1 text-[#2563eb] focus:ring-[#2563eb]">
+                        <span class="text-slate-700">Habitat, swimming speed, lifespan, and hunting style</span>
+                    </label>
+                    <label class="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] transition">
+                        <input type="radio" name="pre_write" value="2" class="w-4 h-4 mt-1 text-[#2563eb] focus:ring-[#2563eb]">
+                        <span class="text-slate-700">Physical characteristics, diet, behaviour, and conservation status</span>
+                    </label>
+                    <label class="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg cursor-pointer hover:border-[#2563eb] transition">
+                        <input type="radio" name="pre_write" value="3" class="w-4 h-4 mt-1 text-[#2563eb] focus:ring-[#2563eb]">
+                        <span class="text-slate-700">Mouth size, tail shape, fin number, and ocean depth</span>
+                    </label>
+                </div>
+                <button onclick="checkPreWrite()" class="bg-[#2563eb] hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-sm transition cursor-pointer">
+                    Verify Topics
+                </button>
+                <div id="feedback-pre" class="hidden mt-3 p-3.5 rounded-xl text-sm leading-relaxed"></div>
+            </div>
+
+            <!-- Essay Editor -->
+            <h3 class="text-lg font-bold text-slate-800 mb-3">Write Your First Draft</h3>
+            <div class="bg-slate-100/80 p-5 sm:p-6 rounded-2xl border border-slate-200 space-y-4">
+                <div class="text-center pb-2 border-b border-slate-200">
+                    <h4 class="text-lg font-bold text-slate-900">The whale shark and the tiger shark</h4>
+                </div>
+
+                <!-- Static Introduction -->
+                <div class="bg-white/80 p-4 rounded-xl border border-slate-200/60 text-slate-700 text-sm sm:text-base leading-relaxed">
+                    <span class="inline-block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Introduction</span>
+                    <p>
+                        The whale shark and the tiger shark are two of the many shark species found in the major oceans of the world. Both the whale shark and the tiger shark belong to the animal class Chondrichthyes. Both types of shark have a large mouth, a divided tail and fins for swimming, including the large triangular fin which can often be seen above the surface of the water. <span class="underline decoration-[#2563eb] decoration-2 font-medium text-slate-900">On the other hand, these two types of shark are very different in their physical characteristics, diet, behaviour and conservation status.</span>
+                    </p>
+                </div>
+
+                <!-- Body Paragraph 1 Input -->
+                <div>
+                    <label for="para1" class="block text-sm font-bold text-slate-800 mb-1.5">
+                        Body Paragraph 1 <span class="font-normal text-slate-500">(e.g., Physical characteristics: size, colour, weight)</span>
+                    </label>
+                    <textarea id="para1" rows="5" oninput="updateWordCount()" placeholder="Start with a clear topic sentence, then add supporting details..." class="w-full p-3.5 bg-white border-2 border-slate-300 rounded-xl text-slate-800 text-sm sm:text-base leading-relaxed focus:outline-none focus:border-[#2563eb] transition resize-y"></textarea>
+                </div>
+
+                <!-- Body Paragraph 2 Input -->
+                <div>
+                    <label for="para2" class="block text-sm font-bold text-slate-800 mb-1.5">
+                        Body Paragraph 2 <span class="font-normal text-slate-500">(e.g., Diet, behaviour, and conservation status)</span>
+                    </label>
+                    <textarea id="para2" rows="5" oninput="updateWordCount()" placeholder="Start with a clear topic sentence, then add supporting details..." class="w-full p-3.5 bg-white border-2 border-slate-300 rounded-xl text-slate-800 text-sm sm:text-base leading-relaxed focus:outline-none focus:border-[#2563eb] transition resize-y"></textarea>
+                </div>
+
+                <!-- Word Counter -->
+                <div class="flex justify-end items-center text-xs sm:text-sm font-medium text-slate-500">
+                    <span class="bg-white px-3 py-1 rounded-full border border-slate-200 shadow-2xs">
+                        Your draft word count: <strong id="word-count" class="text-[#2563eb]">0</strong> words
+                    </span>
+                </div>
+
+                <!-- Static Conclusion -->
+                <div class="bg-white/80 p-4 rounded-xl border border-slate-200/60 text-slate-700 text-sm sm:text-base leading-relaxed">
+                    <span class="inline-block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Conclusion</span>
+                    <p>
+                        Overall, it is clear that the whale shark is a much larger animal, but it is a gentle giant, whereas the smaller tiger shark is a hungry meat-eater. However, both animals play an important role in the ocean environment. For example, tiger sharks keep the oceans clean by eating dead whales and fish. People and nations need to cooperate to make sure we protect both of these important animal species.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap gap-3 mt-5">
+                <button onclick="downloadEssay()" class="bg-[#2563eb] hover:bg-blue-700 active:bg-blue-800 text-white font-semibold px-5 py-2.5 rounded-xl shadow-sm transition cursor-pointer flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    Download Essay (.txt)
+                </button>
+                <button onclick="toggleSample()" class="bg-slate-600 hover:bg-slate-700 active:bg-slate-800 text-white font-semibold px-5 py-2.5 rounded-xl shadow-sm transition cursor-pointer">
+                    Show/Hide Example Answer
+                </button>
+            </div>
+
+            <!-- Download Notification Message Box (No alert()) -->
+            <div id="download-toast" class="hidden mt-3 p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-sm font-medium animate-fade-in">
+                ✅ Your compiled essay has been downloaded as <strong>Sharks_Compare_Contrast_Essay.txt</strong>!
+            </div>
+
+            <!-- Model Answer Modal -->
+            <div id="sample-answer" class="hidden mt-5 bg-emerald-50/80 border border-emerald-200 p-5 rounded-xl text-slate-800 text-sm sm:text-base leading-relaxed space-y-3 animate-fade-in">
+                <div class="flex items-center justify-between border-b border-emerald-200 pb-2">
+                    <strong class="text-emerald-900 font-bold">Model Body Paragraphs (for reference)</strong>
+                    <span class="text-xs bg-emerald-200/70 text-emerald-900 px-2 py-0.5 rounded-full font-medium">Sample</span>
+                </div>
+                <p class="italic text-slate-700">
+                    First, whale sharks and tiger sharks differ greatly in their physical characteristics. The whale shark is the largest fish in the sea, growing up to 12 metres long and weighing around 20 tonnes. It has a distinctive pattern of white spots on its dark grey skin. In contrast, the tiger shark is much smaller, usually measuring about 3 to 4 metres and weighing up to 600 kilograms. Its skin is bluish-green with dark vertical stripes that fade as it gets older.
+                </p>
+                <p class="italic text-slate-700">
+                    In addition, the two species have very different diets, behaviours, and conservation statuses. Whale sharks are filter feeders that eat tiny plankton and small fish, and they are gentle and harmless to humans. Conversely, tiger sharks are aggressive predators that eat fish, seals, birds, and even rubbish. Finally, whale sharks are currently an endangered species, whereas tiger sharks are classified as near threatened.
+                </p>
+            </div>
+
+            <!-- Revise & Edit Checklists -->
+            <div class="mt-8 pt-6 border-t border-slate-200">
+                <h3 class="text-lg font-bold text-slate-800 mb-1">Revise &amp; Edit Checklists</h3>
+                <p class="text-sm text-slate-500 mb-4">Check off each item as you review your draft:</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Task Checklist -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200/80">
+                        <h4 class="font-bold text-[#2563eb] mb-3">Task Checklist (Content &amp; Structure)</h4>
+                        <div class="space-y-3 text-sm text-slate-700">
+                            <label class="flex items-start gap-2.5 cursor-pointer">
+                                <input type="checkbox" class="checklist-input w-4 h-4 mt-0.5 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                                <span class="transition-colors">Did you use a topic sentence to introduce each paragraph?</span>
+                            </label>
+                            <label class="flex items-start gap-2.5 cursor-pointer">
+                                <input type="checkbox" class="checklist-input w-4 h-4 mt-0.5 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                                <span class="transition-colors">Did you include information about the size, colour and weight of the two shark species?</span>
+                            </label>
+                            <label class="flex items-start gap-2.5 cursor-pointer">
+                                <input type="checkbox" class="checklist-input w-4 h-4 mt-0.5 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                                <span class="transition-colors">Did you include information about the diet, behaviour and conservation status of the two shark species?</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Language Checklist -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200/80">
+                        <h4 class="font-bold text-[#2563eb] mb-3">Language Checklist (Grammar &amp; Vocab)</h4>
+                        <div class="space-y-3 text-sm text-slate-700">
+                            <label class="flex items-start gap-2.5 cursor-pointer">
+                                <input type="checkbox" class="checklist-input w-4 h-4 mt-0.5 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                                <span class="transition-colors">Did you use academic verbs correctly?</span>
+                            </label>
+                            <label class="flex items-start gap-2.5 cursor-pointer">
+                                <input type="checkbox" class="checklist-input w-4 h-4 mt-0.5 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                                <span class="transition-colors">Did you use comparative adjectives correctly (e.g., <em>larger, smaller</em>)?</span>
+                            </label>
+                            <label class="flex items-start gap-2.5 cursor-pointer">
+                                <input type="checkbox" class="checklist-input w-4 h-4 mt-0.5 text-[#2563eb] rounded focus:ring-[#2563eb]">
+                                <span class="transition-colors">Did you use <em>and, or, but, whereas, neither</em> and <em>both</em> correctly?</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        // Helper to display styled feedback
+        function showFeedback(elementId, isSuccess, htmlContent) {
+            const el = document.getElementById(elementId);
+            el.classList.remove('hidden', 'bg-emerald-50', 'text-emerald-800', 'border-emerald-200', 'bg-rose-50', 'text-rose-800', 'border-rose-200');
+            el.classList.add('block', 'border', 'animate-fade-in');
+            if (isSuccess) {
+                el.classList.add('bg-emerald-50', 'text-emerald-800', 'border-emerald-200');
+            } else {
+                el.classList.add('bg-rose-50', 'text-rose-800', 'border-rose-200');
+            }
+            el.innerHTML = htmlContent;
+        }
+
+        // Exercise 1 Verification
+        function checkExercise1() {
+            const q1Checked = Array.from(document.querySelectorAll('input[name="ex1_q1"]:checked')).map(el => el.value);
+            const q2Checked = document.querySelector('input[name="ex1_q2"]:checked')?.value;
+            const q3Checked = document.querySelector('input[name="ex1_q3"]:checked')?.value;
+
+            const isQ1Correct = q1Checked.length === 2 && q1Checked.includes('b') && q1Checked.includes('c');
+            const isQ2Correct = q2Checked === 'a';
+            const isQ3Correct = q3Checked === '2';
+
+            if (isQ1Correct && isQ2Correct && isQ3Correct) {
+                showFeedback(
+                    'feedback-ex1',
+                    true,
+                    '<strong>🎉 Excellent! All answers are correct.</strong><ul class="list-disc pl-5 mt-1 space-y-1"><li><strong>b</strong> and <strong>c</strong> introduce differences.</li><li><strong>a</strong> introduces similarities.</li><li>Paragraph length varies depending on the supporting details needed.</li></ul>'
+                );
+            } else {
+                let hints = [];
+                if (!isQ1Correct) hints.push('Check Question 1 (look for words like "differences" or "different").');
+                if (!isQ2Correct) hints.push('Check Question 2 (look for the word "similar").');
+                if (!isQ3Correct) hints.push('Check Question 3 (think about whether all paragraphs have a strict rule on sentence count).');
+                showFeedback(
+                    'feedback-ex1',
+                    false,
+                    '<strong>❌ Not quite right.</strong> ' + hints.join(' ')
+                );
+            }
+        }
+
+        // Exercise 2 Verification
+        function checkExercise2() {
+            // Text 1: Bears (Correct: b and c)
+            const t1Checked = Array.from(document.querySelectorAll('input[name="ex2_t1"]:checked')).map(el => el.value);
+            if (t1Checked.length === 2 && t1Checked.includes('b') && t1Checked.includes('c')) {
+                showFeedback(
+                    'feedback-ex2-t1',
+                    true,
+                    '<strong>✅ Correct!</strong> <strong>b</strong> is a general topic sentence, and <strong>c</strong> is a topic sentence that also lists the supporting topics (habitat, colour, behaviour). Option <em>a</em> is not the main idea of the paragraph.'
+                );
+            } else {
+                showFeedback(
+                    'feedback-ex2-t1',
+                    false,
+                    '<strong>❌ Try again.</strong> Remember to select <strong>TWO</strong> sentences that summarize the similarities between the two bears.'
+                );
+            }
+
+            // Text 2: Elephants (Correct: a and b)
+            const t2Checked = Array.from(document.querySelectorAll('input[name="ex2_t2"]:checked')).map(el => el.value);
+            if (t2Checked.length === 2 && t2Checked.includes('a') && t2Checked.includes('b')) {
+                showFeedback(
+                    'feedback-ex2-t2',
+                    true,
+                    '<strong>✅ Correct!</strong> Both <strong>a</strong> and <strong>b</strong> cover the two main parts of the paragraph: differences in appearance and similarities in behaviour/social life.'
+                );
+            } else {
+                showFeedback(
+                    'feedback-ex2-t2',
+                    false,
+                    '<strong>❌ Try again.</strong> Select <strong>TWO</strong> sentences. Notice that the paragraph talks about <strong>BOTH</strong> differences and similarities.'
+                );
+            }
+        }
+
+        // Pre-writing Check
+        function checkPreWrite() {
+            const selected = document.querySelector('input[name="pre_write"]:checked')?.value;
+            if (selected === '2') {
+                showFeedback(
+                    'feedback-pre',
+                    true,
+                    '<strong>✅ Spot on!</strong> You can group <em>physical characteristics</em> into Paragraph 1, and <em>diet, behaviour, and conservation status</em> into Paragraph 2.'
+                );
+            } else {
+                showFeedback(
+                    'feedback-pre',
+                    false,
+                    '<strong>❌ Not quite.</strong> Read the underlined sentence in the introduction carefully and try again.'
+                );
+            }
+        }
+
+        // Real-time Word Counter
+        function updateWordCount() {
+            const text1 = document.getElementById('para1').value.trim();
+            const text2 = document.getElementById('para2').value.trim();
+            const combined = (text1 + ' ' + text2).trim();
+            const words = combined ? combined.split(/\s+/).length : 0;
+            document.getElementById('word-count').textContent = words;
+        }
+
+        // Toggle Sample Answer
+        function toggleSample() {
+            const modal = document.getElementById('sample-answer');
+            modal.classList.toggle('hidden');
+        }
+
+        // Compile and Download Essay as .txt
+        function downloadEssay() {
+            const p1 = document.getElementById('para1').value.trim() || '[Paragraph 1 not written yet]';
+            const p2 = document.getElementById('para2').value.trim() || '[Paragraph 2 not written yet]';
+
+            const fullText = `The whale shark and the tiger shark
+
+The whale shark and the tiger shark are two of the many shark species found in the major oceans of the world. Both the whale shark and the tiger shark belong to the animal class Chondrichthyes. Both types of shark have a large mouth, a divided tail and fins for swimming, including the large triangular fin which can often be seen above the surface of the water. On the other hand, these two types of shark are very different in their physical characteristics, diet, behaviour and conservation status.
+
+${p1}
+
+${p2}
+
+Overall, it is clear that the whale shark is a much larger animal, but it is a gentle giant, whereas the smaller tiger shark is a hungry meat-eater. However, both animals play an important role in the ocean environment. For example, tiger sharks keep the oceans clean by eating dead whales and fish. People and nations need to cooperate to make sure we protect both of these important animal species.`;
+
+            try {
+                const blob = new Blob([fullText], { type: 'text/plain;charset=utf-8' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = 'Sharks_Compare_Contrast_Essay.txt';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                const toast = document.getElementById('download-toast');
+                toast.classList.remove('hidden');
+                setTimeout(() => toast.classList.add('hidden'), 4000);
+            } catch (err) {
+                console.error('Download failed:', err);
+            }
+        }
+    </script>
+</body>
+</html>
